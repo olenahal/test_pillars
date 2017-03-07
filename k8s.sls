@@ -1,9 +1,9 @@
 k8s:
   api_server: "http://127.0.0.1:1433"
   api_servers:
-    - 172.17.1.93
-    - 172.17.1.204
-    - 172.17.1.210
+    - 172.17.1.93:443
+    - 172.17.1.204:443
+    - 172.17.1.210:443
   ca.pem: |
     -----BEGIN RSA PRIVATE KEY-----
     MIIEowIBAAKCAQEAsH3+zFcUpopqqWrdzhjRguSkpUlRdoxUY/EJ/4ZxFNTBVc7L
