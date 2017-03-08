@@ -1,5 +1,5 @@
 k8s:
-  api_server: "https//127.0.0.1:1433"
+  api_server: "https://127.0.0.1:1433"
   api_servers:
     - 172.17.1.93:443
     - 172.17.1.204:443
