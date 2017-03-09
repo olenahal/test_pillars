@@ -3,7 +3,7 @@ salt-master:
     - git@github.com:triangu/salt-states.git:
       - pubkey: /root/.ssh/id_rsa_sync_git.pub
       - privkey: /root/.ssh/id_rsa_sync_git
-      - base: "development"
+      - base: "v1.0-rc1"
   ext_pillar:
     - git:
       - master git@github.com:triangu/k8s-demo-pillars.git:
