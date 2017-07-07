@@ -50,6 +50,7 @@ salt-master:
     bCijko/VEWNVkEbXa4qL9wGPnaUnPTf/d435wO5TjH0D1xkOVm/CgeQAoNm7ecjh
     NMoKFtgeH4eAcHOVedzX0grBouyk8AJgnep355CyBE7uOHQomUdUaZ8pKloAWHak
     AQIDAQAB
+    -----END PUBLIC KEY-----
   master.pem: |
     -----BEGIN RSA PRIVATE KEY-----
     MIIEowIBAAKCAQEAzpYqi1QMoPBA+3UcL9sbsVkXIY6K+FesX+kdS/b2pR8mVCG0
