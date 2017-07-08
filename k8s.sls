@@ -1,4 +1,5 @@
 k8s:
+  objects_url: git@github.com:triangu/aws-k8s-objects.git
   version: 1.5.3
   cluster_dns: 10.66.6.2
   cluster_dns_domain: prod.cluster
