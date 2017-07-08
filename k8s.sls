@@ -1,4 +1,7 @@
 k8s:
+  version: 1.5.3
+  cluster_dns: 10.66.6.2
+  cluster_dns_domain: prod.cluster
   api_server: "https://127.0.0.1:1433"
   api_servers:
     - 172.17.1.29:443
