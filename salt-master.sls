@@ -41,7 +41,7 @@ salt-master:
     zzGs4V0U/9rjIFhXCGqj9rkrA9qTXYkLgiXpybRFrL/3ZoXYtd0F0w==
     -----END RSA PRIVATE KEY-----
   id_rsa_sync_git.pub: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5v3jvUguH835LY4cVZJ6xtSfWesTd/qKbgBCBTfI1nOsv06vkcsTPpNXqBktpdc4XxNnXhskHKTHqZw/rPOeoMfHpIWvJycgC1xP/zTV1sVYAfFgtNTnoJeDRsV5ATJn/N97jWGjnF++fm2A7Rjz0w0DwNv6Yt0HpE7/kv9i2TTvgekzlwjhJ3yF8ihqGYIHeNI1OM0asOUNF6EFuYPaRsI/tjBe0Eg3ttrE75cwSOO4//IIu3jAOCKVNYcbBh5P3I7mEEUTnkAQTTrDXgjjOHTbB9AbeV8yD/QnCRSfnw0poPFmImSD5psigfj0ENixMvMSRaFZ5B0/vMld1lMur"
- master.pub: |
+  master.pub: |
     -----BEGIN PUBLIC KEY-----
     MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA/KQ7G7x0Q4WPiicl/9TD
     ulRGFCVyA98lxwqIddqr9/CVC7b8WCI0nFG0mOZQgBKkEUM+vJLwP1ccxLS3IJbK
@@ -51,7 +51,7 @@ salt-master:
     zaSaVH0A30oyzEhXf1c+Q9iom6PAgpP98A/u8lmzQKMyfwZHmW6OzoH7XmzbszRg
     gwIDAQAB
     -----END PUBLIC KEY-----
- master.pem: |
+  master.pem: |
     -----BEGIN RSA PRIVATE KEY-----
     MIIEpQIBAAKCAQEA/KQ7G7x0Q4WPiicl/9TDulRGFCVyA98lxwqIddqr9/CVC7b8
     WCI0nFG0mOZQgBKkEUM+vJLwP1ccxLS3IJbKBz5aijwLGJKbtggQ726Rz76HQA9T
