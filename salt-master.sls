@@ -6,10 +6,10 @@ salt-master:
       - base: "development"
   ext_pillar:
     - git:
-      - master git@github.com:triangu/k8s-demo-pillars.git:
+      - master git@github.com:triangu/aws-pillars.git:
         - pubkey: /root/.ssh/id_rsa_sync_git.pub
         - privkey: /root/.ssh/id_rsa_sync_git
-      - master git@github.com:triangu/t-public-keys.git:
+      - master git@github.com:triangu/ssh-public-keys.git:
         - pubkey: /root/.ssh/id_rsa_sync_git.pub
         - privkey: /root/.ssh/id_rsa_sync_git
   id_rsa_sync_git: |
