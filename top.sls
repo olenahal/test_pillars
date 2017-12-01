@@ -11,8 +11,5 @@ base:
     - flanneld
     - k8s
     - etcd-k8s
-
-{% for file in salt['cp.list_master'](prefix='pillar/' + grains.host + '.sls') %}
-  '{{ grains['id'] }}':
-    - {{ grains['host'] }}
-{% endfor %}
+  'ip-172-17-2-41.ec2.internal':
+    - ip-172-17-2-41
