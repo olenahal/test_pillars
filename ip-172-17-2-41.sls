@@ -15,26 +15,14 @@ haproxy:
     fe-http-in:
       bind: "*:80"
       acls:
-        - "geth-rpc hdr(host) -i geth-rpc.triangu.com"
-        - "geth-ethexplorer hdr(host) -i geth-ethexplorer.triangu.com"
+        - "grafana hdr(host) -i grafana.triangu.com"
       use_backends:
-        - geth-rpc if geth-rpc
-        - geth-ethexplorer if geth-ethexplorer
+        - grafana if grafana
 
   backends:
-    geth-rpc:
+    grafana:
       options: "cookie SERVERID insert indirect nocache"
       servers:
-        geth-rpc1:
-          host: '172.17.1.25:8545'
+        grafana1:
+          host: '172.17.2.41:3000'
           params: check
-      user: geth
-      password: wOlceJQHlXHz
-    geth-ethexplorer:
-      options: "cookie SERVERID insert indirect nocache"
-      servers:
-        geth-ethexplorer1:
-          host: '172.17.1.25:80'
-          params: check
-      user: geth
-      password: wOlceJQHlXHz
