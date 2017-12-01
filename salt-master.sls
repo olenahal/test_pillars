@@ -12,6 +12,9 @@ salt-master:
       - master git@github.com:triangu/ssh-public-keys.git:
         - pubkey: /root/.ssh/id_rsa_sync_git.pub
         - privkey: /root/.ssh/id_rsa_sync_git
+      - master git@github.com:triangu/aws-deployments.git:
+        - pubkey: /root/.ssh/id_rsa_sync_git.pub
+        - privkey: /root/.ssh/id_rsa_sync_git
   id_rsa_sync_git: |
     -----BEGIN RSA PRIVATE KEY-----
     MIIEpAIBAAKCAQEAub9471ILh/N+S2OHFWSesbUn1nrE3f6im4AQgU3yNZzrL9Or
