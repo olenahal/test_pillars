@@ -1,4 +1,4 @@
-salt_version: 2016.3.2
+salt_version: 2017.7.2
 docker:
   - version: 1.13.1
     dns_servers: 
