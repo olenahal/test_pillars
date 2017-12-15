@@ -13,3 +13,6 @@ base:
     - etcd-k8s
   'ip-172-17-2-41.ec2.internal':
     - ip-172-17-2-41
+  'ip-172-17-1-144.ec2.internal':
+    - ip-172-17-1-144
+
